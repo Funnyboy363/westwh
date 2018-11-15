@@ -11,13 +11,10 @@ body {
     font-weight: $normal;
     color: $text;
     background-color: #fff;
+ 
 }
 
-.wrapper {
-    width: 100vw;
-    height: 100vh;
-    
-}
+
 
 h2 {
     font-size: 1.5rem;
@@ -57,18 +54,24 @@ nav {
 // bottom navigation code 
 
 div {
-    flex-basis: 25%;
+    flex-basis: 33%;
     text-align: center;
+   
 }
 
 
 div a {
     display: block;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding: .5rem 0;
     color: $ltgrey;
     width: 100%;
 }
+
+div a p {
+    font-size: 1rem;
+}
+
 
 div a:hover {
     background-color: $secondary;
@@ -94,12 +97,16 @@ div.active a {
 /* Main album */
 
 main.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 .7rem;
+
 
     div.column {
         display: flex;
         flex-direction: column;
-        margin: 0 1.5rem;
-        
+        margin: 1rem 2%;
+       
     }
 
 
@@ -123,13 +130,37 @@ main.album {
 div.row {
     display: flex;
     flex-direction: row;
+    margin-top: .3rem;
+    margin-left: 10px;
 }
 
 
+ul {
+    padding-right: 1rem;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 12%;
+}
 
 
+ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: .9rem;
+}
 
-} 
+.fa {
+font-size: 3.4rem;
+}
+
+
+p {
+    margin-top: 1.3rem;
+    margin-left: 5px;
+}
+
+
+} // end of main
 
 
 
