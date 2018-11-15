@@ -101,7 +101,7 @@ body {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  color: #36175e;
+  color: #261611;
   background-color: #fff; }
 
 h2 {
@@ -112,7 +112,7 @@ h2 {
   padding-bottom: .5rem; }
 
 header {
-  background-color: #553285;
+  background-color: #663d32;
   color: white;
   font-size: 1.5rem;
   text-align: left;
@@ -138,35 +138,37 @@ div a {
   display: block;
   font-size: 1.8rem;
   padding: .5rem 0;
-  color: #aaa;
+  color: black;
   width: 100%; }
 
 div a p {
   font-size: 1rem; }
 
 div a:hover {
-  background-color: #36175e;
+  background-color: #261611;
   color: white; }
 
 div.active a:hover {
-  background-color: #36175e;
+  background-color: #261611;
   color: white; }
 
 div.active a {
-  background-color: #553285;
+  background-color: #663d32;
   color: white; }
 
 /* Main album */
 main.album {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0 .7rem; }
+  margin: 0 0; }
   main.album div.column {
     display: flex;
     flex-direction: column;
-    margin: 1rem 2%; }
+    margin: 1rem auto;
+    background-color: #663d32;
+    color: white; }
   main.album figure.photo {
-    width: 100%;
+    width: 90%;
     margin: .5rem auto; }
   main.album figure.photo img {
     width: 100%;
@@ -181,8 +183,7 @@ main.album {
   main.album div.row {
     display: flex;
     flex-direction: row;
-    margin-top: .3rem;
-    margin-left: 10px; }
+    margin: .5rem 1.5rem; }
   main.album ul {
     padding-right: 1rem;
     margin-top: 7px;

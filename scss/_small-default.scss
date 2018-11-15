@@ -64,7 +64,7 @@ div a {
     display: block;
     font-size: 1.8rem;
     padding: .5rem 0;
-    color: $ltgrey;
+    color: black;
     width: 100%;
 }
 
@@ -99,19 +99,20 @@ div.active a {
 main.album {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 .7rem;
+    margin: 0 0;
 
 
     div.column {
         display: flex;
         flex-direction: column;
-        margin: 1rem 2%;
-       
+        margin: 1rem auto;
+       background-color: #663d32;
+        color: white;
     }
 
 
     figure.photo {
-         width: 100%; 
+         width: 90%; 
          margin: .5rem auto;
         }
     figure.photo img {width: 100%;
@@ -124,14 +125,14 @@ main.album {
         font-size: 1.7rem;
         color: white;
         text-shadow: 4px 3px 2px black;
+
     }
     
 
 div.row {
     display: flex;
     flex-direction: row;
-    margin-top: .3rem;
-    margin-left: 10px;
+    margin: .5rem 1.5rem;
 }
 
 
