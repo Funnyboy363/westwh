@@ -20,12 +20,19 @@ body {
     
 }
 
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: .5rem;
+}
+
 
 header {
     background-color: $primary;
     color: white;
     padding: .5rem $gutter;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 nav {
