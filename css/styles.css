@@ -99,7 +99,7 @@ html {
 
 body {
   font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'BenchNine', sans-serif;
   font-weight: 400;
   color: #261611;
   background-color: #fff; }
@@ -185,7 +185,7 @@ main.album {
     flex-direction: row;
     margin: .5rem 1.5rem; }
   main.album ul {
-    padding-right: 1rem;
+    padding-right: 2.5rem;
     margin-top: 7px;
     margin-left: 5px;
     margin-right: 12%; }
