@@ -19,7 +19,7 @@ body {
 h2 {
     font-size: 1.5rem;
     text-align: left;
-    padding-left: .5rem;
+    padding-left: 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
@@ -31,7 +31,7 @@ header {
     font-size: 1.5rem;
     text-align: left;
     width: 100%;
-    padding-left: .5rem;
+    padding-left: 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
@@ -110,6 +110,9 @@ main.album {
         color: white;
     }
 
+    div.column:last-child {
+        margin-bottom: 5rem;
+    }
 
     figure.photo {
          width: 90%; 
