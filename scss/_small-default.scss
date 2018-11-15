@@ -23,6 +23,8 @@ h2 {
     font-size: 1.5rem;
     text-align: left;
     padding-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 
@@ -33,6 +35,8 @@ header {
     text-align: left;
     width: 100%;
     padding-left: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 
@@ -90,17 +94,41 @@ div.active a {
 /* Main album */
 
 main.album {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+
+    div.column {
+        display: flex;
+        flex-direction: column;
+        margin: 0 1.5rem;
+        
+    }
+
+
     figure.photo {
-        
          width: 100%; 
-        
+         margin: .5rem auto;
         }
-    figure.photo img {width: 100%;}
-    figure figcaption {text-align: cneter; padding: .2rem 0;}
+    figure.photo img {width: 100%;
+    border-radius: 1rem;
+    }
+    figure figcaption {
+        text-align: left; 
+        margin-left: 1.5rem;
+        margin-top: -2.5rem;
+        font-size: 1.7rem;
+        color: white;
+        text-shadow: 4px 3px 2px black;
+    }
     
+
+div.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
 } 
 
 

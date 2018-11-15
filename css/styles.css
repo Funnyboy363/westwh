@@ -111,7 +111,9 @@ body {
 h2 {
   font-size: 1.5rem;
   text-align: left;
-  padding-left: .5rem; }
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
 
 header {
   background-color: #553285;
@@ -119,7 +121,9 @@ header {
   font-size: 1.5rem;
   text-align: left;
   width: 100%;
-  padding-left: .5rem; }
+  padding-left: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
 
 nav {
   background-color: white;
@@ -154,17 +158,26 @@ div.active a {
   color: white; }
 
 /* Main album */
-main.album {
+main.album div.column {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%; }
-  main.album figure.photo {
-    width: 100%; }
-  main.album figure.photo img {
-    width: 100%; }
-  main.album figure figcaption {
-    text-align: cneter;
-    padding: .2rem 0; }
+  flex-direction: column;
+  margin: 0 1.5rem; }
+main.album figure.photo {
+  width: 100%;
+  margin: .5rem auto; }
+main.album figure.photo img {
+  width: 100%;
+  border-radius: 1rem; }
+main.album figure figcaption {
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-top: -2.5rem;
+  font-size: 1.7rem;
+  color: white;
+  text-shadow: 4px 3px 2px black; }
+main.album div.row {
+  display: flex;
+  flex-direction: row; }
 
 @media only screen and (min-width: 29rem) {
   main.album {
