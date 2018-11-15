@@ -160,15 +160,13 @@ div.active a {
 main.album {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0 0; }
+  margin-bottom: 5rem; }
   main.album div.column {
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
     background-color: #88574a;
     color: white; }
-  main.album div.column:last-child {
-    margin-bottom: 5rem; }
   main.album figure.photo {
     width: 90%;
     margin: .5rem auto; }
@@ -205,6 +203,12 @@ main.album {
   main.album {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 4rem; }
+    grid-row-gap: 1rem;
+    margin-bottom: 5rem; }
     main.album div.column {
-      margin: 0 1rem; } }
+      margin: 0 .2rem;
+      padding: 0; }
+    main.album div.row {
+      padding: 0; }
+    main.album div.column:last-child {
+      margin-bottom: 0; } }

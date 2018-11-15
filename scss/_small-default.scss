@@ -99,7 +99,8 @@ div.active a {
 main.album {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 0;
+   
+    margin-bottom: 5rem;
 
 
     div.column {
@@ -110,9 +111,6 @@ main.album {
         color: white;
     }
 
-    div.column:last-child {
-        margin-bottom: 5rem;
-    }
 
     figure.photo {
          width: 90%; 

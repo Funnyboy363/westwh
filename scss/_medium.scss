@@ -1,13 +1,22 @@
 main.album {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 4rem;
+    grid-row-gap: 1rem;
+    margin-bottom: 5rem;
 
 
     div.column {
         
-        margin: 0 1rem;
-       
+        margin: 0 .2rem;
+       padding: 0;
     }
+
+div.row {
+    padding: 0;
+}
+
+div.column:last-child {
+    margin-bottom: 0;
+}
 
 }
